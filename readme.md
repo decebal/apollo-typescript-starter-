@@ -12,7 +12,7 @@
 1. Download & Install Dependencies
     ```sh
     # clone it
-    $ git clone git@github.com:kylealwyn/apollo-typescript-starter.git
+    $ git clone git@github.com:decebal/apollo-typescript-starter.git
     $ cd apollo-typescript-starter
 
     # Make it your own
