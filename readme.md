@@ -5,6 +5,8 @@
   <p>Boilerplate project to get up and running with Apollo Server, GraphQL, Typescript and Express.</p>  
 </div>
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## Getting Started
 
 1. Download & Install Dependencies

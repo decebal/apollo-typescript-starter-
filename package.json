@@ -24,7 +24,8 @@
   ],
   "scripts": {
     "start": "nodemon",
-    "debug": "nodemon"
+    "debug": "nodemon",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "dependencies": {
     "apollo-server": "^2.1.0",
