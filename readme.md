@@ -5,12 +5,14 @@
   <p>Boilerplate project to get up and running with Apollo Server, GraphQL, Typescript and Express.</p>  
 </div>
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## Getting Started
 
 1. Download & Install Dependencies
     ```sh
     # clone it
-    $ git clone git@github.com:kylealwyn/apollo-typescript-starter.git
+    $ git clone git@github.com:decebal/apollo-typescript-starter.git
     $ cd apollo-typescript-starter
 
     # Make it your own

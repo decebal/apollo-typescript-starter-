@@ -5,13 +5,25 @@
     "tslint-plugin-prettier"
   ],
   "rules": {
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
     "no-submodule-imports": false,
     "object-literal-sort-keys": false,
     "member-ordering": false,
     "member-access": false,
     "prettier": [true, {
       "printWidth": 100,
-      "semi": true,
+      "semi": false,
       "useTabs": false,
       "singleQuote": true,
       "trailingComma": "es5",

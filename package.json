@@ -1,8 +1,8 @@
 {
   "name": "apollo-typescript-starter",
   "version": "1.0.0",
-  "description": "Boilerplate project to get up and running with Apollo Server, GraphQL, Typescript and Postgres",
-  "author": "Kyle Alwyn <kjalwyn@gmail.com>",
+  "description": "Boilerplate project to get up and running with Apollo Server, GraphQL, Typescript and Express",
+  "author": "Decebal Dobrica <decebal1988@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">= 8",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kylealwyn/apollo-typescript-starter.git"
+    "url": "git://github.com/decebal/apollo-typescript-starter.git"
   },
   "keywords": [
     "node",
@@ -19,12 +19,12 @@
     "typescript",
     "apollo",
     "apollo-server",
-    "boilerplate",
-    "postgres"
+    "boilerplate"
   ],
   "scripts": {
     "start": "nodemon",
-    "debug": "nodemon"
+    "debug": "nodemon",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "dependencies": {
     "apollo-server": "^2.1.0",
